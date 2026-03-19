@@ -1017,7 +1017,7 @@ e_i = \psihat(\x_i) - \fhat^{(-i)}(z_i^{(s)}),
 <div class="columns">
 <div class="column" style="width:50%;">
 <ol type="1">
-<li>Build <strong>VarPro</strong> rules (randomized trees) <br> → small rectangular regions (R)<br>
+<li>Build <strong>VarPro</strong> rules (randomized trees) <br> → small rectangular regions <span class="math inline">\(R\)</span><br>
 </li>
 <li>For each feature <span class="math inline">\(s\)</span> and rule <span class="math inline">\(R\)</span>:
 <ul>
@@ -1027,7 +1027,7 @@ e_i = \psihat(\x_i) - \fhat^{(-i)}(z_i^{(s)}),
 <li>
 <strong>Standardize</strong> <span class="math inline">\(x^{(s)}\)</span> around the region centroid<br>
 </li>
-<li>Regress ((x)) on standardized <span class="math inline">\(x^{(s)}\)</span>, choose <span class="math inline">\(\lambda\)</span> by PRESS (LOO)<br>
+<li>Regress <span class="math inline">\(\widehat{\psi}(x)\)</span> on standardized <span class="math inline">\(x^{(s)}\)</span>, choose <span class="math inline">\(\lambda\)</span> by PRESS (LOO)<br>
 </li>
 <li>Slope <span class="math inline">\(\Rightarrow \widehat{g}^{(s)}_R\)</span>
 </li>
