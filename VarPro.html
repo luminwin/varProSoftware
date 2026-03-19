@@ -845,12 +845,12 @@ VarPro achieves superior precision (0.55–0.57) while maintaining high accuracy
 <div class="column" style="width:50%;">
 <p><img data-src="figures/hrr.png" style="width:95.0%"></p>
 </div><div class="column" style="width:50%;">
-<div style="font-size: 80%;">
+<div style="font-size: 75%;">
 <p>The figure shows results of heart rate recovery survival analysis using the VarPro procedure. (A) Survival by sex; (B) survival for women stratified by peak MET; (C) survival for men stratified by peak MET; (D) standardized variable importance (red = signal, blue = noise).</p>
 <ul>
 <li>
 <strong>Top signals:</strong> peak METs, age, heart rate recovery, sex (red bars)</li>
-<li>VarPro identifies <strong>sex</strong> as a top-5 variable — missed entirely by gradient boosting</li>
+<li>For comparison, we re-analyzed the data using Cox-based gradient boosting. VarPro identifies <strong>sex</strong> as a top-5 variable — missed entirely by gradient boosting</li>
 <li>Stratified survival curves reveal interaction: men are more adversely affected by low peak METs than women</li>
 </ul>
 </div>
