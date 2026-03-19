@@ -1,0 +1,25 @@
+
+
+.border {
+  border: 1px solid #dee2e6;
+}
+
+.border-thick {
+  border-width: 3px;
+}
+
+.reveal .slide-logo {
+  z-index: -999 !important;
+}
+
+.varpro-highlight {
+  background-color: #e6f2ff;
+  border: 1px solid #1f77b4;
+  border-radius: 0px;
+  padding: 0px;
+}
+
+.blue-text {
+  color: #1f77b4;
+  font-weight: 600;
+}

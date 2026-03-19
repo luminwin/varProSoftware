@@ -1,0 +1,68 @@
+---
+title: "Tree-Based Machine Learning Methods for Prediction, Variable Selection and Causal Inference"
+subtitle: "[Part I](https://luminwin.github.io/shortCourse/presentationPartI.html)       [Part II](https://luminwin.github.io/shortCourse/presentationPartII.html)       [Part III](https://luminwin.github.io/shortCourse/presentationPartIII.html)       [Part IV](https://luminwin.github.io/shortCourse/presentationPartIV.html)"
+author: "Hemant Ishwaran and Min Lu <br> University of Miami"
+bibliography: vignettes.bib
+csl: biomed-central.csl
+format: 
+  revealjs: 
+    theme: theme.scss
+    transition: fade
+    background-transition: fade
+    highlight-style: ayu-mirage
+    code-link: true
+    slide-number: c/t
+    title-slide-attributes:
+      data-background-image: images/forest_mathextra_book.jpg
+      data-background-opacity: "0.95"
+    chalkboard: 
+      buttons: false
+    preview-links: auto
+    logo:    images/rfsrc.svg 
+    css: styles.css
+    footer: <https://randomforestsrc.org>
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Outline { .smaller background-color="azure"}
+
+::: columns
+
+::: {.column width="47.5%"}
+#### [Part I: Training](https://luminwin.github.io/shortCourse/presentationPartI.html)
+
+1.	Quick start
+2.	Data structures allowed
+3.	Training (grow) with examples <br>(regression, classification, survival)
+
+#### [Part II:  Inference and Prediction](https://luminwin.github.io/shortCourse/presentationPartII.html)
+
+1.	Inference (OOB)
+2.	Prediction Error
+3.	Prediction
+4.	Restore
+5.	Partial Plots
+:::
+
+::: {.column width="5%"}
+
+:::
+
+::: {.column width="47.5%" }
+#### [Part III: Variable Selection](https://luminwin.github.io/shortCourse/presentationPartIII.html)
+
+1.	VIMP
+2.	Subsampling (Confidence Intervals)
+3.	Minimal Depth
+4.	VarPro
+
+#### [Part IV:  Advanced Examples](https://luminwin.github.io/shortCourse/presentationPartIV.html)
+
+1.	Class Imbalanced Data
+2.	Competing Risks
+3.	Multivariate Forests
+:::
+:::
+
